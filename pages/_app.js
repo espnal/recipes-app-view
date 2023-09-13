@@ -1,6 +1,6 @@
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import axios from 'axios';
-import Layout from '../components/layout/layout';
+import Layout from '../components/layout/Layout';
 import {Toaster} from "react-hot-toast";
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools"
 import '../styles/globals.css';
