@@ -9,9 +9,8 @@ function MyDocument() {
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
       </Head>
       <body>
-        <Main/>
+        {/* <Main/> */}
           <NextScript/>
-            
       </body>
     </Html>
   )

@@ -1,8 +1,13 @@
 .about {
-	padding: 5rem 0;
+	// padding: 5rem 0;
 	max-width: 800px;
 }
 
 .title {
 	margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+	.justifyText {
+		text-align: justify;
+	}
 }

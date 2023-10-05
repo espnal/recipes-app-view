@@ -11,9 +11,9 @@ export default function HeroSection() {
         <div className={classes.hero__container}>
             <div className={classes.hero__info}>
                 <h1 className={classes.hero__title}>
-                    Find the perfect meals 
+                    Find the perfect 
                     {" "}
-                    <span>Meal recipe</span>
+                    <span>Meal recipes</span>
                     {" "}
                     for you
                 </h1>

@@ -6,13 +6,13 @@ import Logo from "../../images/logo-preview.png";
 
 function Navbar() {
 return (
-    <nav class={classes.navbar}>
+    <nav className={classes.navbar}>
         <Link href="/">
-            <div class={classes.logo}>
-                <Image src={Logo}/>
+            <div className={classes.logo}>
+                <Image src={Logo} alt="logo"/>
             </div>
         </Link>
-        <ul class={classes.navLinks}>
+        <ul className={classes.navLinks}>
             <li>
                 <Link href={"/meals"}>
                     Meals

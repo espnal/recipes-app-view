@@ -53,15 +53,19 @@
 	.hero__container {
 		flex-direction: column-reverse;
 		align-items: center;
+		justify-content: center;
 	}
 	.hero__info {
 		max-width: 100%;
 		text-align: center;
 	}
 	.hero__img {
-		width: 100%;
+		width: 345px;
 		max-height: 500px;
 		overflow: hidden;
+		img {
+			width: '100%';
+		}
 	}
 	.hero__buttons {
 		flex-direction: column;
